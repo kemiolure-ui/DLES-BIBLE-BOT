@@ -1,0 +1,20 @@
+# Bible Webhook for Dialogflow ES
+
+## Setup
+
+1. Install dependencies:
+   npm install
+
+2. Start the server locally:
+   npm start
+
+3. (Optional) Expose locally using ngrok:
+   ngrok http 3000
+
+4. In Dialogflow ES:
+   - Go to Fulfillment → Enable Webhook → Paste your HTTPS URL
+   - Enable “Webhook call for this intent” in your ReadBibleVerse intent.
+
+5. Test in Dialogflow:
+   User: John 3:16
+   Bot: John 3:16 — For God so loved the world...
